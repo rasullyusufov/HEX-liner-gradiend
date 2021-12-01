@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex background</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+        body {
+            font-family: 'Lato', sans-serif;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: rosybrown;
+
+        }
+
+        .btn {
+            padding: 8px 20px;
+            border-radius: 7px;
+            border: none;
+            background-color: rgba(0, 0, 0, 0);
+            color: #fff;
+        }
+
+        .btn:active {
+            background-color: #ffd;
+        }
+
+        .container {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1></h1>
+        <button class="btn" id="btn">
+            Change background
+        </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
